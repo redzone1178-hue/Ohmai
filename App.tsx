@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
 import { ViewType } from './types';
-import Sidebar from './Components/Sidebar';
-import ChatView from './Components/ChatView';
-import VoiceView from './Components/VoiceView';
-import ImageView from './Components/ImageView';
-import VideoView from './Components/VideoView';
+import Sidebar from './Sidebar';
+import ChatView from './ChatView';
+import VoiceView from './VoiceView';
+import ImageView from './ImageView';
+import VideoView from './VideoView';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<ViewType>(ViewType.CHAT);
