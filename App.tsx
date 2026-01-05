@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ViewType } from './types';
-import Sidebar from './Sidebar';
+import Sidebar from './SidebarMain.tsx';
 import ChatView from './ChatView';
 import VoiceView from './VoiceView';
 import ImageView from './ImageView';
